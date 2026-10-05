@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "type": "module",
+  "description": "Node needs this to run the engine outside Claude Code (tools/, tests of the engine). The plugin itself does not use it."
+}

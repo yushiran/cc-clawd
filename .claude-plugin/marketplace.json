@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cc-clawd",
+  "description": "Pixel pets for Claude Code: Clawd and any pet you define, living in the band above the prompt",
+  "owner": {
+    "name": "Shiran Yu",
+    "url": "https://github.com/yushiran"
+  },
+  "plugins": [
+    {
+      "name": "clawd",
+      "description": "A 60 Hz pixel pet above the prompt that reacts to Claude and to any mod or program that signals it; hosts other mods' band rows; real pixels on kitty/Ghostty, interactive on the desktop app",
+      "source": "./plugins/clawd",
+      "category": "mod"
+    },
+    {
+      "name": "focus-timer",
+      "description": "Example guest of cc-clawd: /focus 25 starts a focus block; the pet types and counts down in the band, then celebrates (falls back to the status line without the pet)",
+      "source": "./examples/focus-timer",
+      "category": "mod"
+    }
+  ]
+}

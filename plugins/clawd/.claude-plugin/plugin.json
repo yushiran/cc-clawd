@@ -1,0 +1,33 @@
+{
+  "name": "clawd",
+  "version": "1.0.0",
+  "description": "A pixel pet in the band above the prompt: Clawd (the Claude Code crab) or any pet you define. Reacts to what Claude is doing; any mod can drive it with $.clawd and hand it band rows; any program can drop a signal file. 60 Hz, real pixels where the terminal draws images, interactive on the desktop app",
+  "author": { "name": "Shiran Yu", "url": "https://github.com/yushiran" },
+  "homepage": "https://github.com/yushiran/cc-clawd",
+  "repository": "https://github.com/yushiran/cc-clawd",
+  "license": "MIT",
+  "keywords": ["mod", "pet", "mascot", "pixel", "animation", "clawd"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "pet": {
+      "type": "string",
+      "title": "Pet",
+      "description": "Which pet lives in the band: clawd, slime, or the id of a pack in ~/.config/clawd/pets/ or one another plugin registered (/clawd pets lists them)",
+      "default": "clawd"
+    },
+    "renderer": {
+      "type": "string",
+      "title": "Renderer",
+      "description": "auto: real pixels on terminals that draw images (kitty, Ghostty), character pixels on others, the interactive client on the desktop app; raster: character pixels; client: follows the pointer and reacts to clicks; image: real pixels; text: still frames",
+      "options": ["auto", "raster", "client", "image", "text"],
+      "default": "auto"
+    },
+    "fps": {
+      "type": "string",
+      "title": "Frame rate",
+      "description": "Frames computed per second; a frame is sent only when it changed",
+      "options": ["30", "60", "120"],
+      "default": "60"
+    }
+  }
+}
