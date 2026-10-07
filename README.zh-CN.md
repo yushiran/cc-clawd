@@ -91,4 +91,4 @@ node tools/preview.mjs --check my-pet.json                     # 只检查格式
 
 ## 许可
 
-代码使用 [MIT](LICENSE)。Clawd 的形象属于 Anthropic。
+代码使用 [CC BY-NC-SA 4.0](LICENSE)。Clawd 的形象属于 Anthropic。

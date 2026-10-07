@@ -136,4 +136,4 @@ The engine is pure JavaScript with no dependencies, so the same files run in a h
 
 ## License
 
-[MIT](LICENSE) for the code. Clawd's design belongs to Anthropic.
+[CC BY-NC-SA 4.0](LICENSE) for the code. Clawd's design belongs to Anthropic.
