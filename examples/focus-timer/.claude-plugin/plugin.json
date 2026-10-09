@@ -2,6 +2,6 @@
   "name": "focus-timer",
   "version": "1.0.0",
   "description": "Example guest of cc-clawd: /focus 25 starts a 25-minute focus block; the pet types on its laptop and counts down in the band, then celebrates. Works without cc-clawd too (a status-line countdown)",
-  "author": { "name": "Shiran Yu", "url": "https://github.com/yushiran" },
+  "author": { "name": "Shiran Yu", "url": "https://github.com/shiran-yu" },
   "license": "MIT"
 }

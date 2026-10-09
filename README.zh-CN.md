@@ -17,7 +17,7 @@
 ## 安装
 
 ```sh
-claude plugin marketplace add yushiran/cc-clawd
+claude plugin marketplace add shiran-yu/cc-clawd
 claude plugin install clawd@cc-clawd
 ```
 
